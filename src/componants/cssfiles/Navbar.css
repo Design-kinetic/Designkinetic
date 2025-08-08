@@ -1,0 +1,128 @@
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #ffe6e6, #fff);
+  padding: 12px 40px;
+  box-shadow: 0 4px 20px rgba(255, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: fit-content;
+  height: 55px;
+  border-radius: 15px;
+  border: 2px solid #ff6666;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: rotate(-5deg) scale(1.05);
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #e00000;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+/* Animate bars on open */
+.bar.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.bar.open:nth-child(2) {
+  opacity: 0;
+}
+.bar.open:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Navigation Menu */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.nav-item {
+  font-size: 16px;
+  font-weight: 600;
+  color: #e00000;
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-item:hover {
+  background-color: #ff4d4d;
+  color: white;
+  transform: scale(1.08);
+  box-shadow: 0 6px 12px rgba(255, 0, 0, 0.2);
+}
+
+/* ---------------------------- */
+/* Responsive for Small Screens */
+/* ---------------------------- */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #fff0f0;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+    z-index: 99;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-item {
+    padding: 10px 18px;
+    font-size: 18px;
+  }
+
+  .nav-bar {
+    flex-direction: row;
+    padding: 12px 20px;
+  }
+}
