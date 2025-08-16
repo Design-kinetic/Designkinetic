@@ -8,7 +8,7 @@ export default function S1() {
       id: 1,
       title: "RAVI",
       description: "Full-stack devefijfoiesses.",
-      image: "/s1.png",
+      image: "/11.png",
       reviews: [
         { rating: 3, date: "2025-08-01" },
         { rating: 4, date: "2025-08-03" }
@@ -20,7 +20,7 @@ export default function S1() {
       id: 2,
       title: "E-commerce Solutions",
       description: "Build and deploy scalable e-commerce stores.",
-      image: "/s1.png",
+      image: "/12.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
@@ -31,7 +31,7 @@ export default function S1() {
       id: 3,
       title: "E-commerce Solutions",
       description: "Build and deploy scalable e-commerce stores.",
-      image: "/images/ecommerce.jpg",
+      image: "/13,png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
