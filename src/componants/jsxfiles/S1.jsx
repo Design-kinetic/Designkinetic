@@ -31,7 +31,7 @@ export default function S1() {
       id: 3,
       title: "E-commerce Solutions",
       description: "Build and deploy scalable e-commerce stores.",
-      image: "/13,png",
+      image: "/13.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
@@ -42,7 +42,7 @@ export default function S1() {
       id: 4,
       title: "photographics",
       description: "gjiwfhojrhogrws.",
-      image: "/blog1.png",
+      image: "/14.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
