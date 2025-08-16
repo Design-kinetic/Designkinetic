@@ -37,6 +37,17 @@ export default function S2() {
       ],
       createdAt: "2025-08-02T12:00:00Z",
       category: "web-development"
+    },
+    {
+      id: 2,
+      title: "E-commerce Solutions",
+      description: "Build and deploy scalable e-commerce stores.",
+      image: "/24.png",
+      reviews: [
+        { rating: 4, date: "2025-08-02" }
+      ],
+      createdAt: "2025-08-02T12:00:00Z",
+      category: "web-development"
     }
   ]);
 
