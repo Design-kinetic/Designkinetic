@@ -1,7 +1,7 @@
 import React from 'react';
 import '../cssfiles/Testimonial.css'; 
 
-export default function Blogs() {
+export default function Testimonial() {
   const blogPosts = [
     {
       id: 1,
