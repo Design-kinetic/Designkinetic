@@ -8,7 +8,7 @@ export default function Portfolio() {
       id: 1,
       title: "RAVI",
       description: "hello i am ravi kumar and i do thid thid and thid ",
-      image: "/m1.png",
+      image: "/11.png",
       reviews: [
         { rating: 5, date: "2025-08-01" },
         { rating: 4, date: "2025-08-03" }
@@ -20,7 +20,7 @@ export default function Portfolio() {
       id: 2,
       title: "Prem chand",
       description: "Build and deploy scalable e-commerce stores.",
-      image: "/images/ecommerce.jpg",
+      image: "/12.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
@@ -31,7 +31,7 @@ export default function Portfolio() {
       id: 3,
       title: "MARYAM FAREED",
       description: "Build and deploy scalable e-commerce stores.",
-      image: "/images/ecommerce.jpg",
+      image: "/13.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
@@ -42,7 +42,7 @@ export default function Portfolio() {
       id: 4,
       title: "MAHANOOR ASLAM",
       description: "Build and deploy scalable e-commerce stores.",
-      image: "/images/ecommerce.jpg",
+      image: "/14.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
@@ -53,7 +53,7 @@ export default function Portfolio() {
       id: 5,
       title: "RAHEEL MALIK",
       description: "Build and deploy scalable e-commerce stores.",
-      image: "/images/ecommerce.jpg",
+      image: "/21.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
@@ -64,7 +64,7 @@ export default function Portfolio() {
       id: 6,
       title: "TALAL AKRAM",
       description: "Build and deploy scalable e-commerce stores.",
-      image: "/images/ecommerce.jpg",
+      image: "/22.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
