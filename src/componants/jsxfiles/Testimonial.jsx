@@ -1,5 +1,5 @@
 import React from 'react';
-import '../cssfiles/Blog.css'; 
+import '../cssfiles/Testimonial.css'; 
 
 export default function Blogs() {
   const blogPosts = [
