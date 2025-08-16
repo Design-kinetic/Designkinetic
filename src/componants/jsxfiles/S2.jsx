@@ -8,7 +8,7 @@ export default function S2() {
       id: 1,
       title: "Custom Website Development",
       description: "Full-stack development for small to medium businesses.",
-      image: "/images/webdev1.jpg",
+      image: "/21.png",
       reviews: [
         { rating: 5, date: "2025-08-01" },
         { rating: 4, date: "2025-08-03" }
@@ -20,7 +20,18 @@ export default function S2() {
       id: 2,
       title: "E-commerce Solutions",
       description: "Build and deploy scalable e-commerce stores.",
-      image: "/images/ecommerce.jpg",
+      image: "/22.png",
+      reviews: [
+        { rating: 4, date: "2025-08-02" }
+      ],
+      createdAt: "2025-08-02T12:00:00Z",
+      category: "web-development"
+    },
+    {
+      id: 2,
+      title: "E-commerce Solutions",
+      description: "Build and deploy scalable e-commerce stores.",
+      image: "/23.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
