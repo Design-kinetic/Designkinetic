@@ -19,12 +19,18 @@ Samples of the logo and product packaging we created are available in my portfol
     },
     {
       id: 1,
-      title: 'my journy',
+      title: 'Project: Machel Motor – Custom Bike Decal Design',
       icon: '🆔',
       date: 'August 2025',
-      excerpt: `ffee, I reviewed my portfolio, making sure everything was perfect. My designs were a reflection of my personality – clean, modern, and intuitive. I had spent countless hours honing my skills, and it was time to share my work with the world.
+      excerpt: `Tag: Custom Decal Design | Client Collaboration | Problem-Solving Across Languages
 
-After a quick breakfast, I headed to my studio, a cozy space filled with design books, plants, and a desk that was my happy place. I spent the morning tweaking a few projects, adding finishing touches to make them shine.
+A client from Germany, the owner of Machel Motor, approached us through Discord. Our team connected with them as friends on the platform, where we introduced our professional background, shared our portfolio, and highlighted testimonials from past collaborations. Impressed by our work, the client agreed to a small €30 project for a custom bike decal.
+
+Although neither I nor my team had designed decals before, we accepted the challenge. The client sent us a detailed outline, and we started the design process. However, the initial designs did not meet Machel’s expectations, and after four attempts, the project was at risk of failing.
+
+Determined to deliver, our team made a final attempt, creating a sharp, dynamic design that the client loved. The entire communication was conducted in German—a language none of us spoke—so we used ChatGPT to accurately understand and respond to client feedback.
+
+This project demonstrates our adaptability, perseverance, and ability to deliver professional results even in challenging circumstances. A sample of this project is available in my portfolio, along with the final design and professional references
 `,
       image: '/blog1.png'
     }
