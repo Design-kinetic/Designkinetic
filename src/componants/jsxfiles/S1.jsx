@@ -6,8 +6,8 @@ export default function S1() {
   const [services] = useState([
     {
       id: 1,
-      title: "RAVI",
-      description: "Full-stack devefijfoiesses.",
+      title: "Minimalist Brand and Identity Design",
+      description: "Elegance in simplicity.",
       image: "/11.png",
       reviews: [
         { rating: 3, date: "2025-08-01" },
@@ -18,8 +18,8 @@ export default function S1() {
     },
     {
       id: 2,
-      title: "E-commerce Solutions",
-      description: "Build and deploy scalable e-commerce stores.",
+      title: "Vintage / Retro Brand and Identity Design",
+      description: "Inspired by tradition",
       image: "/12.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
@@ -29,8 +29,8 @@ export default function S1() {
     },
     {
       id: 3,
-      title: "E-commerce Solutions",
-      description: "Build and deploy scalable e-commerce stores.",
+      title: "Bold & Vibrant Brand and Identity Design",
+      description: "Dare to stand out",
       image: "/13.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
@@ -40,14 +40,14 @@ export default function S1() {
     },
     {
       id: 4,
-      title: "photographics",
-      description: "gjiwfhojrhogrws.",
+      title: "Luxury / Premium Brand and Identity Design",
+      description: "Excellence in elegance",
       image: "/14.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
       createdAt: "2025-08-02T12:00:00Z",
-      category: "photoshoots"
+      category: "web-development"
     }
   ]);
 
