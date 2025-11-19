@@ -6,8 +6,8 @@ export default function S4() {
   const [services] = useState([
     {
       id: 1,
-      title: "Custom Website Development",
-      description: "Full-stack development for small to medium businesses.",
+      title: "Corporate Website Design",
+      description: "Professional and clear",
       image: "/images/webdev1.jpg",
       reviews: [
         { rating: 5, date: "2025-08-01" },
@@ -18,15 +18,37 @@ export default function S4() {
     },
     {
       id: 2,
-      title: "E-commerce Solutions",
-      description: "Build and deploy scalable e-commerce stores.",
+      title: "E-commerce Website Design",
+      description: "Shop with ease",
       image: "/images/ecommerce.jpg",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
       createdAt: "2025-08-02T12:00:00Z",
       category: "web-development"
-    }
+    },
+     {
+      id: 3,
+      title: "Portfolio / Personal Website Design",
+      description: "Shop with ease",
+      image: "/images/ecommerce.jpg",
+      reviews: [
+        { rating: 4, date: "2025-08-02" }
+      ],
+      createdAt: "2025-08-02T12:00:00Z",
+      category: "web-development"
+    },
+         {
+      id: 4,
+      title: "Landing Page Design",
+      description: "Convert in a click",
+      image: "/images/ecommerce.jpg",
+      reviews: [
+        { rating: 4, date: "2025-08-02" }
+      ],
+      createdAt: "2025-08-02T12:00:00Z",
+      category: "web-development"
+    },
   ]);
 
   const [activeTab, setActiveTab] = useState('all');
