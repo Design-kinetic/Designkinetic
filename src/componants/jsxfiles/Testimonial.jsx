@@ -5,15 +5,15 @@ export default function Testimonial() {
   const blogPosts = [
     {
       id: 1,
-      title: 'Hello its me RAVI',
+      title: 'Project: Urja Company',
       icon: '🆔',
       date: 'August 2025',
       excerpt: `The Designer's Dream
-I woke up early, feeling excited and refreshed. Today was the day I would finally showcase my UI design portfolio to potential clients. My name is Ravi, and I'm a UI designer with a passion for creating beautiful, user-friendly interfaces.
+A client from Shahkot contacted us after hearing about our agency from a friend. They introduced themselves and shared that they were starting their own brand. They wanted to create a strong visual identity for their brand, beginning with a logo.
 
-As I sipped my morning coffee, I reviewed my portfolio, making sure everything was perfect. My designs were a reflection of my personality – clean, modern, and intuitive. I had spent countless hours honing my skills, and it was time to share my work with the world.
+Our team designed a logo for them, which they loved. Beyond the logo, they also requested packaging and labeling for their products, including creams for beauty care and services like facial, hand, and foot treatments.
 
-After a quick breakfast, I headed to my studio, a cozy space filled with design books, plants, and a desk that was my happy place. I spent the morning tweaking a few projects, adding finishing touches to make them shine.
+Samples of the logo and product packaging we created are available in my portfolio for review. The client was very satisfied with the results, and the project highlights our ability to deliver comprehensive branding solutions from logo design to product packaging
 `,
       image: '/blog1.png'
     },
