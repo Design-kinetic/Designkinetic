@@ -6,8 +6,8 @@ export default function S2() {
   const [services] = useState([
     {
       id: 1,
-      title: "Custom Website Development",
-      description: "Full-stack development for small to medium businesses.",
+      title: "Magazine & Editorial Design",
+      description: "Stories that shine",
       image: "/21.png",
       reviews: [
         { rating: 5, date: "2025-08-01" },
@@ -18,8 +18,8 @@ export default function S2() {
     },
     {
       id: 2,
-      title: "E-commerce Solutions",
-      description: "Build and deploy scalable e-commerce stores.",
+      title: "Brochure & Catalog Design",
+      description: "Showcase with style",
       image: "/22.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
@@ -28,9 +28,9 @@ export default function S2() {
       category: "web-development"
     },
     {
-      id: 2,
-      title: "E-commerce Solutions",
-      description: "Build and deploy scalable e-commerce stores.",
+      id: 3,
+      title: "Book & Cover Design",
+      description: "Covers that captivate",
       image: "/23.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
@@ -39,9 +39,9 @@ export default function S2() {
       category: "web-development"
     },
     {
-      id: 2,
-      title: "E-commerce Solutions",
-      description: "Build and deploy scalable e-commerce stores.",
+      id: 4,
+      title: "Poster & Flyer Design",
+      description: "Grab attention fast",
       image: "/24.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
