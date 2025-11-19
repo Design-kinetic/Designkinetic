@@ -6,8 +6,8 @@ export default function S3() {
   const [services] = useState([
     {
       id: 1,
-      title: "Custom Website Development",
-      description: "Full-stack development for small to medium businesses.",
+      title: "Social Media Graphics Design",
+      description: "Engage at first glance",
       image: "/31.png",
       reviews: [
         { rating: 5, date: "2025-08-01" },
@@ -18,8 +18,8 @@ export default function S3() {
     },
     {
       id: 2,
-      title: "E-commerce Solutions",
-      description: "Build and deploy scalable e-commerce stores.",
+      title: "Banner & Ad Design",
+      description: "Clicks that convert",
       image: "/32.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
@@ -28,16 +28,17 @@ export default function S3() {
       category: "web-development"
     },
  {
-      id: 2,
-      title: "E-commerce Solutions",
-      description: "Build and deploy scalable e-commerce stores.",
+      id: 3,
+      title: "Infographic & Data Visualization Design",
+      description: "Info made visual",
       image: "/33.png",
       reviews: [
         { rating: 4, date: "2025-08-02" }
       ],
       createdAt: "2025-08-02T12:00:00Z",
       category: "web-development"
-    }
+    },
+    
   ]);
 
   const [activeTab, setActiveTab] = useState('all');
